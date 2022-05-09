@@ -19,7 +19,7 @@ Güçlü şifreleme algoritmaları inşa edebilmek için iki temel işlem vardı
 İki işlem kendi başına güvenliği sağlayamazlar. Buradaki amaç bu iki işlemi art arda kullanarak güvenli şifreler oluşturmaktır. Des bu iki işlemi de içermesiyle güvenliği arttırmıştır.
    
 ## DES Şifreleme Algoritması
-Düz metin onaltılık formatta olmalıdır. Eger değilse dönüştürme işlemi yapılır.
+Düz metin onaltılık formatta olmalıdır. Eğer değilse dönüştürme işlemi yapılır.
 64 bitlik anahtar değeri tanımlanır.
   
 ### Şifreleme
