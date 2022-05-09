@@ -34,7 +34,7 @@ R = L - 1 XOR F(R -1, k)
     
    #### F Fonksiyonu
    
-   <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/f_fonk.jpg" height="400">
+   <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/f_fonk.jpg" height="500">
    
    - 32 bitlik sağ parça expand tablosu yardımıyla 48 bit olarak genisletilir. (Diffusion)
    
