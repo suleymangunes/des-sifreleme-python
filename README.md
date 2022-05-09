@@ -15,6 +15,7 @@ Des simetrik şifreleme algoritmasıdır. Gizli anahtarlı bir şifreleme türü
 Güçlü şifreleme algoritmaları inşa edebilmek için iki temel işlem vardır.
 1. Confusion (Karıştırma): Bir şifreleme işleminde şifreli metin ile anahtar arasında bir ilişki olmamalıdır. Günümüzde bu yapıyı sağlayan en yaygın işlem (substitution) yer değiştirmedir.
 2. Diffusion (Yayma): Sabit yaklaşımları engellemek amacıyla düz metindeki bir sembolün şifreli metindeki bir çok sembolü etkilemesi işlemidir. Sıklıkla kullanılan yapı permutasyondur.
+
 İki işlem kendi başına güvenliği sağlayamazlar. Buradaki amaç bu iki işlemi art arda kullanarak güvenli şifreler oluşturmaktır. Des bu iki işlemi de içermesiyle güvenliği arttırmıştır.
    
 ## DES Şifreleme Algoritması
