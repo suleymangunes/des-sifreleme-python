@@ -30,11 +30,12 @@
     L = R - 1
     R = L - 1 XOR F(R -1, k)
     """
-    #### F Fonksiyonu
-    - 32 bitlik sağ parça expand tablosu yardımıyla 48 bit olarak genisletilir. (Diffusion)
-    - Sag parca anahtar degeri ile XOR'lanır. (confusion)
-    - S-box yardımıyla 48 bitlik metin 32 bite indirgenir. Bunu yaparken 48 biti 6 bitlik 8 parçaya ayırır. 6 bitin ilk 2 bitinin toplamı sıra sayısını geri kalan 4 bitin toplamı ise sutun sayısını verir. S-box tabloları yardımıyla satir ve sutun sayıları kullanılarak 4 bitlik degerler bulunur. (diffusion)
-    - 4 bitlik değerlere permutasyon tablosu yardımıyla permutasyon işlemi uygulanır. (confisuon)
+    
+   #### F Fonksiyonu
+   - 32 bitlik sağ parça expand tablosu yardımıyla 48 bit olarak genisletilir. (Diffusion)
+   - Sag parca anahtar degeri ile XOR'lanır. (confusion)
+   - S-box yardımıyla 48 bitlik metin 32 bite indirgenir. Bunu yaparken 48 biti 6 bitlik 8 parçaya ayırır. 6 bitin ilk 2 bitinin toplamı sıra sayısını geri kalan 4 bitin toplamı ise sutun sayısını verir. S-box tabloları yardımıyla satir ve sutun sayıları kullanılarak 4 bitlik degerler bulunur. (diffusion)
+   - 4 bitlik değerlere permutasyon tablosu yardımıyla permutasyon işlemi uygulanır. (confisuon)
   3. Son yer değiştirmeden sonra sağ ve sol parçalar kombinasyon işleminden geçirilir.
   4. Final permutasyon işlemi final permutasyon tablosu yardımıyla uygulanır.
   Şifreli metin oluşturuldu.
