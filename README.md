@@ -6,9 +6,9 @@ Des simetrik şifreleme algoritmasıdır. Gizli anahtarlı bir şifreleme türü
 - Feistel yapıdadır.
 - Aynı işlemleri yapan 16 Rounddan oluşur. 
 - Her Roundda kullanılan farklı alt anahtar başlangıç anahtarından üretilir.
- 
+<p align="center">
 <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/des1.jpg" height="500">
-
+<p/>
 ## Claude Shannon ile Güçlü Şifreleme
 Güçlü şifreleme algoritmaları inşa edebilmek için iki temel işlem vardır.
 1. Confusion (Karıştırma): Bir şifreleme işleminde şifreli metin ile anahtar arasında bir ilişki olmamalıdır. Günümüzde bu yapıyı sağlayan en yaygın işlem (subsitotuon) yer değiştirmedir.
