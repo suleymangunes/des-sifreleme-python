@@ -21,6 +21,9 @@
   
   ### Şifreleme
   1. İlk permutasyon islemi permutasyon tablosu yardımıyla yapılır.
+  
+  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/ilk_perm.jpg" height="500">
+  
   2. Feistel yapısı gereği 16 rounddan oluşan işlemler uygulanır.
     64 bitlik metin sag ve sol olmak üzere iki parçaya ayrılır ve her defasında bir parçanın ve roundkey değerinin F fonksiyonuna tabi tutulup diğer parçayla XOR işlemine tabi tutulması ve sonra yer değiştirmesi sağlanır.
     """
