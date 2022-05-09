@@ -49,19 +49,19 @@ R = L - 1 XOR F(R -1, k)
 3. Son yer değiştirmeden sonra sağ ve sol parçalar kombinasyon işleminden geçirilir.
 4. Final permutasyon işlemi final permutasyon tablosu yardımıyla uygulanır.
 
-<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/son_perm.jpg" height="250">
+<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/son_perm.jpg" height="400">
 
 Şifreli metin oluşturuldu.
   
   ### Anahtar Oluşturma
   1. Parity bit bırakma tablosu yardımıyla 64 bitlik anahtar permutasyon işleminden geçirilerek 56 bite indirgenmesi sağlanır. Bu ilk permutasyon işleminde parity bitleri (8, 16, 24, 32, 40, 48, 56, 64) kaldirilir. Parity bitleri kontrol bitleridir.
   
-  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/parity.jpg" height="500">
+  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/parity.jpg" height="250">
   
   2. 56 bitlik anahtar ikiye bolünür.
   3. Kaydırma tablosundan yararlanılarak 1, 2, 9 ve 16. bitler 1 kez, geri kalan bitler ise 2 kez sola kaydırılır. Kaydırma isleminden sonra anahtarlar tekrar birleştirilir.
   
-  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/anahtar_sch.jpg" height="400">
+  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/anahtar_sch.jpg" height="500">
   
   4. Anahtar sıkıştırma tablosu kullanılarak 56 bitlik anahtarın 48 bite indirgenmesi sağlanır. Her round için ayrı anahtar oluşturulur.
   ### Şifre Çözme
