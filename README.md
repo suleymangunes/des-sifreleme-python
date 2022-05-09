@@ -44,19 +44,19 @@ R = L - 1 XOR F(R -1, k)
    - S-box yardımıyla 48 bitlik metin 32 bite indirgenir. Bunu yaparken 48 biti 6 bitlik 8 parçaya ayırır. 6 bitin ilk 2 bitinin toplamı sıra sayısını geri kalan 4 bitin toplamı ise sutun sayısını verir. S-box tabloları yardımıyla satir ve sutun sayıları kullanılarak 4 bitlik degerler bulunur. (diffusion)
    - 4 bitlik değerlere permutasyon tablosu yardımıyla permutasyon işlemi uygulanır. (confisuon)
 
-   <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/sbox.jpg" height="250">
+   <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/sbox.jpg" height="270">
 
 3. Son yer değiştirmeden sonra sağ ve sol parçalar kombinasyon işleminden geçirilir.
 4. Final permutasyon işlemi final permutasyon tablosu yardımıyla uygulanır.
 
-<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/son_perm.jpg" height="400">
+<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/son_perm.jpg" height="250">
 
 Şifreli metin oluşturuldu.
   
   ### Anahtar Oluşturma
   1. Parity bit bırakma tablosu yardımıyla 64 bitlik anahtar permutasyon işleminden geçirilerek 56 bite indirgenmesi sağlanır. Bu ilk permutasyon işleminde parity bitleri (8, 16, 24, 32, 40, 48, 56, 64) kaldirilir. Parity bitleri kontrol bitleridir.
   
-  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/parity.jpg" height="400">
+  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/parity.jpg" height="500">
   
   2. 56 bitlik anahtar ikiye bolünür.
   3. Kaydırma tablosundan yararlanılarak 1, 2, 9 ve 16. bitler 1 kez, geri kalan bitler ise 2 kez sola kaydırılır. Kaydırma isleminden sonra anahtarlar tekrar birleştirilir.
@@ -67,5 +67,5 @@ R = L - 1 XOR F(R -1, k)
   ### Şifre Çözme
   Feistel şifrelemede şifre çözmek için sadece anahtar tarifesi değiştirilir. Aynı 16 anahtar ters çevrilerek üretilir. Ters anahtarlarla şifrelenmiş metin şifreleme fonksiyonuna tabi tutulur. Bu sayede şifre çözme işlemi gerçekleştirilir.
   
-  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/sifre_cozme.jpg" height="400">
+  <img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/sifre_cozme.jpg" height="500">
   
