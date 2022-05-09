@@ -9,7 +9,7 @@
  
 
 ![alt text](https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/des1.jpg)
-<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/des1.jpg" width="100" height="100">
+<img src="https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main/gorseller/des1.jpg" height="400">
  ## Claude Shannon ile Güçlü Şifreleme
    Güçlü şifreleme algoritmaları inşa edebilmek için iki temel işlem vardır.
    1. Confusion (Karıştırma): Bir şifreleme işleminde şifreli metin ile anahtar arasında bir ilişki olmamalıdır. Günümüzde bu yapıyı sağlayan en yaygın işlem (subsitotuon) yer değiştirmedir.
