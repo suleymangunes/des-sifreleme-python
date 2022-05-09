@@ -27,10 +27,10 @@ Düz metin onaltılık formatta olmalıdır. Eger degilse donusturme islemi yap�
 2. Feistel yapısı gereği 16 rounddan oluşan işlemler uygulanır.
 64 bitlik metin sag ve sol olmak üzere iki parçaya ayrılır ve her defasında bir parçanın ve roundkey değerinin F fonksiyonuna tabi tutulup diğer parçayla XOR işlemine tabi tutulması ve sonra yer değiştirmesi sağlanır.
     
-"""
+```
 L = R - 1
 R = L - 1 XOR F(R -1, k)
-"""
+```
     
    #### F Fonksiyonu
    - 32 bitlik sağ parça expand tablosu yardımıyla 48 bit olarak genisletilir. (Diffusion)
