@@ -202,9 +202,9 @@ def encrypt(pt, rkb, rk):
         # s-box tablosunda satir ve sutun kullanilarak degerler degistirilip 48 bitten 32 bite indirgenmesi saglandi
         sbox_str = ""
         for j in range(0, 8):
-            # ilk ve son bit satir numarasidir
+            # ilk ve son bitin toplami satir numarasidir
             row = bin2dec(int(xor_x[j * 6] + xor_x[j * 6 + 5]))  
-            # geri kalan 4 bit sutun numarasidir
+            # geri kalan 4 bitin toplami sutun numarasidir
             col = bin2dec(int(xor_x[j * 6 + 1] + xor_x[j * 6 + 2] + xor_x[j * 6 + 3] + xor_x[j * 6 + 4]))
             val = sbox[j][row][col]
             sbox_str = sbox_str + dec2bin(val)
