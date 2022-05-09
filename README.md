@@ -6,7 +6,9 @@
   - Feistel yapıdadır.
   - Aynı işlemleri yapan 16 Rounddan oluşur. 
   - Her Roundda kullanılan farklı alt anahtar başlangıç anahtarından üretilir.
- ![alt text](https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main//desencryption1.png)
+ 
+
+![alt text](https://raw.githubusercontent.com/suleymangunes/des-sifreleme-python/main//desencryption1.png)
  ## Claude Shannon ile Güçlü Şifreleme
    Güçlü şifreleme algoritmaları inşa edebilmek için iki temel işlem vardır.
    1. Confusion (Karıştırma): Bir şifreleme işleminde şifreli metin ile anahtar arasında bir ilişki olmamalıdır. Günümüzde bu yapıyı sağlayan en yaygın işlem (subsitotuon) yer değiştirmedir.
